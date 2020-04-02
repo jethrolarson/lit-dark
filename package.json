@@ -1,0 +1,22 @@
+{
+    "name": "lit-dark",
+    "displayName": "lit-dark",
+    "description": "Theme file inspired by monokai but with white comments nd some other tweaks",
+    "version": "0.0.1",
+    "publisher": "jethrolarson",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "lit-dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/lit-dark-color-theme.json"
+            }
+        ]
+    }
+}
